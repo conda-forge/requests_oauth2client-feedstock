@@ -1,5 +1,5 @@
 {% set name = "requests_oauth2client" %}
-{% set version = "1.7.0" %}
+{% set version = "1.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/requests_oauth2client-{{ version }}.tar.gz
-  sha256: 535d7283c86545366362549a64306dfefd76ee6523ec38a7a0c6bc5081ffe21d
+  sha256: a550f18c41bae5082548257b8a4cd453da6315552f451fc81352c2aaa79b89b3
 
 build:
   noarch: python
